@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    padding: 80px;
+    background-color: white;
+    width: 300px;
+    border-radius: 15px;
+    color: black;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.pic {
+    margin-top: 30px;
+
+}
+
+.verify-button {
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 45px;
+    border: none;
+    box-shadow: none;
+    background-color: rgb(50, 50, 50);
+
+}
+
+.res {
+    margin-top: 10px;
+}
