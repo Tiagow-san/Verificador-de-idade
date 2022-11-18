@@ -5,7 +5,7 @@ function calculate() {
     var res = document.querySelector("div#res")
     var birth = Number(formsage.value)
     var age = (year - birth)
-    if (formsage.value.length == 0 || birth > year) {
+    if (formsage.value.length < 4 || birth > year) {
         alert("[ERRO] Verifique os dados e tente novamente")
         pause
     }
