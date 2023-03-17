@@ -1,18 +1,22 @@
 function calculate() {
-    var date = new Date()
-    var year = date.getFullYear()
-    var formsage = document.getElementById("age")
-    var res = document.querySelector("div#res")
-    var birth = Number(formsage.value)
-    var age = (year - birth)
+    const date = new Date()
+    const year = date.getFullYear()
+    let formsage = document.getElementById("age")
+    let res = document.querySelector("div#res")
+    let birth = Number(formsage.value)
+    let age = (year - birth)
     if (formsage.value.length < 4 || birth > year) {
         alert("[ERRO] Verifique os dados e tente novamente")
         pause
     }
-    var fsex = document.getElementsByName("radsex")
-    var sex = ''
-    var img = document.getElementById("image")
-
+    let fsex = document.getElementsByName("radsex")
+    let sex = ''
+    let img = document.getElementById("image")
+    
+    if (fsex[0].checked == false && fsex[1].checked == false) {
+        alert("[ERRO] Verifique os dados e tente novamente")
+    }
+    else {
     if (fsex[0].checked) {
         sex = 'homem'
         //Baby
@@ -68,6 +72,6 @@ function calculate() {
         }
     }
     res.style.textAllign = 'center'
-    res.innerHTML = `Detectamos ${sex} de ${age} anos`
-
+    res.innerHTML = `Detectado ${sex} de ${age} anos`
+    }
 }
