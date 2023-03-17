@@ -7,4 +7,4 @@ de um indivíduo com a idade aproximada caculada.
 
 <img align="center" alt="screenshotui" src="https://i.imgur.com/QCzIInw.png">
 
-### [Ver Preview] (https://verificador-de-idade-xi.vercel.app/)
+### [Ver Preview](https://verificador-de-idade-xi.vercel.app/)
