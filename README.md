@@ -3,11 +3,8 @@ Calcula a idade do usuário com base no dex data de nascimento e no ano atual. T
 de um indivíduo com a idade aproximada caculada.
 
 # Screenshots
-<strong>Quando definido como sexo masculino:<strong>
+<strong>Interface antes de inserir os dados:<strong>
 
-<img align="center" alt="screenshotman" src="https://i.imgur.com/nYwqv23.jpg">
+<img align="center" alt="screenshotui" src="https://i.imgur.com/QCzIInw.png">
 
-  
-<strong>Quando definido como sexo feminino:<strong>
-
-<img align="center" alt="screenshotwoman" src="https://i.imgur.com/sux7l1S.jpg">
+### [Ver Preview] (https://verificador-de-idade-xi.vercel.app/)
