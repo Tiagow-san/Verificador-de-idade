@@ -7,4 +7,4 @@ de um indivíduo com a idade aproximada resultante.
 
 <img align="center" alt="screenshotui" src="https://i.imgur.com/QCzIInw.png">
 
-### [Ver Preview](https://verificador-de-idade-xi.vercel.app/)
+### [🔗Clique aqui para acessar](https://tiagow-san.github.io/Verificador-de-idade/)
