@@ -1,6 +1,6 @@
 # Verificador de idade
 Calcula a idade do usuário com base na data de nascimento e no ano atual. Também imprime uma miniatura
-de um indivíduo com a idade aproximada resultante.
+de um indivíduo com a idade aproximada resultante. Projeto desenvolvido no curso de JavaScript para Iniciantes do Gustavo Guanabara 
 
 # Screenshots
 >Interface antes de inserir os dados:<strong>
